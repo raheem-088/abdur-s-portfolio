@@ -1,11 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Abdur's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <p>Hello World</p>
+    
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+<!-- home section design -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Abdur Raheem</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p> skilled in building responsive frontends and scalable backends. 
+            Passionate about clean code, modern frameworks, and delivering end-to-end web solutions 
+            that are efficient, user-friendly, and performance-driven</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://www.instagram.com/_khan_raheem_088?igsh=ODMxZXpyNjlib2Nh"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/abdur-raheem-240779327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://wa.me/8799747755" target="_blank" class="whatsapp-btn"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="CV.pdf" download="Abdur's CV" class="btn">Download CV</a>
+    </div>
+
+    <div class="home-img">
+        <img src="home.png" alt=""
+    </div>
+</section>
+
+<!-- about section design -->
+ <section class="about" id="about">
+    <div class="about-img">
+        <img src="about.png" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Full-Stack Developer!</h3>
+        
+            <div class="container">
+                
+                    <span class="visible">
+                       <p> I’m a passionate Full Stack Developer with a strong foundation in both frontend and backend
+                        technologies. I specialize in creating dynamic, responsive, and user-centric
+                         web applications. With experience in modern frameworks like React, Node.js, and Express,
+                          along with databases like MongoDB and MySQL, 
+                          I build complete, scalable solutions from scratch.</p>
+                    </span>
+                       <span class="invisible">
+                       <p> My approach focuses on clean code, performance optimization,
+                        and intuitive UI/UX design. I enjoy solving real-world problems 
+                        through code and constantly seek opportunities to learn
+                         and grow in this ever-evolving tech landscape.</p>
+                       </span>
+                
+                <button id="btn">Read More</button>
+            </div>
+              
+    </div>
+ </section>
+
+ <!-- services section design -->
+  <section class="services" id="services">
+    <h2 class="heading">Our <span>Services</span></h2>
+
+    <div class="services-container">
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Web Developer</h3>
+            <div class="container">
+                
+                <span class="visible">
+                   <p> We create responsive, fast, and scalable websites tailored to your business needs.
+                     From static pages to dynamic web apps, </p>
+                </span>
+                   <span class="invisible">
+                   <p> we build solutions that offer great user experience and functionality.</p>
+                   </span>
+            
+            <button id="btn">Read More</button>
+        </div>
+        </div>
+        <div class="services-box">
+            <i class='bx bxs-paint'></i>
+            <h3>Graphic Design</h3>
+            <div class="container">
+                
+                <span class="visible">
+                   <p> Our design team crafts visually engaging graphics from logos 
+                    and brand identities to marketing creatives.We focus on aesthetics, </p>
+                </span>
+                   <span class="invisible">
+                   <p>  consistency, and message clarity to make your brand stand out.</p>
+                   </span>
+            
+            <button id="btn">Read More</button>
+        </div>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-bar-chart-alt'></i>
+            <h3>Digital Marketing</h3>
+            <div class="container">
+                
+                <span class="visible">
+                   <p> Grow your online presence with our result-driven digital marketing strategies.
+                     We offer SEO, social media management,  </p>
+                </span>
+                   <span class="invisible">
+                   <p>content marketing, and ad campaigns to boost visibility and drive engagement.</p>
+                   </span>
+            
+            <button id="btn">Read More</button>
+        </div>
+        </div>
+    </div>
+  </section>
+  <!-- portfolio section design -->
+   <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="portfolio1.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Amazone's Clone</h4>
+                <p>Designed and developed the entire frontend layout,
+                     replicating Amazon's homepage and key components.</p>
+                <a href="amazon.html"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="portfolio2.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, molestiae?</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="portfolio3.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, molestiae?</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="portfolio4.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, molestiae?</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="portfolio5.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, molestiae?</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="portfolio6.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, molestiae?</p>
+                <a href="#"><i class='bx bx-link-external' ></i></a>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <!-- Contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <a href="mailto:moralstorycartoon2004@gmail.com" class="btn">Send Message</a>
+        </form>
+    </section>
+
+    <!-- footer design -->
+     <footer class="footer">
+        <div class="footer-text">
+            <p> Copyright &copy; 2025 by Abdur Raheem | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+     </footer>
+
+
+     <!-- scroll reveal -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!-- jquery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+     <!-- typed js -->
+      <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!-- custome js -->
+    <script src="index.js"></script>
 </body>
 </html>
