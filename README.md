@@ -4,6 +4,7 @@ I'm a passionate developer who loves building meaningful and efficient web solut
 I enjoy turning ideas into reality through code,
 # 🧰 Technology
 Languages:   JavaScript •  HTML • CSS 
+<br>
 Tools:       Git • GitHub • VS Code 
 # 📌 Featured Projects
 Project	Description	Tech Used
